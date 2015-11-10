@@ -27,6 +27,8 @@
     "electron-prebuilt": "^0.34.3"
   },
   "dependencies": {
-    
+    "nedb": "^1.4.0",
+    "pouchdb": "^5.1.0",
+    "pubsub-js": "^1.5.3"
   }
 }

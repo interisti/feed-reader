@@ -1,0 +1,8 @@
+
+module.exports = {
+	events: {
+		FEED_LOAD_REQUEST: 'FEED_LOAD_REQUEST',
+		FEED_LOAD_RESPONSE: 'FEED_LOAD_RESPONSE'
+	}
+
+};

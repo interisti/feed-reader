@@ -31,3 +31,6 @@ typings
 
 # Ignore bower 
 bower_components
+
+# ignore database files
+app/db/*.db

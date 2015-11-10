@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "material-design-lite": "~1.0.6"
+    "material-design-lite": "~1.0.6",
+    "ractive": "~0.7.3"
   }
 }
