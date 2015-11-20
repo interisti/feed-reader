@@ -1,7 +1,7 @@
 var ipc = require('ipc');
 var events = require('../core/constants').events;
 
-(function () {
+(function (ns) {
 
 	init();
 
@@ -13,7 +13,12 @@ var events = require('../core/constants').events;
 	};
 
 	function onFeedLoad(data) {
+		feedComponent.set('data', data);
 		console.log(data);
 	};
 
-})();
+
+
+	var feedComponent = ns.UI.FeedComponent();
+
+})(window.FR = window.FR || {});

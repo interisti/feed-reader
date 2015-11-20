@@ -16,6 +16,7 @@ module.exports = function init() {
 
 function onFeedLoadRequest(event, msg) {
 	db.feeds.find({}, function (err, feeds) {
+		feeds = [{ title: 'Hello' }, { title: 'World' }];
 		event.sender.send(events.FEED_LOAD_RESPONSE, feeds);
 	});
 };
